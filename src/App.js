@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Modal, Button } from 'react-bootstrap';
 
 const App = () => {
-  const [modalData, setModalData] = useState(''); // Data to display in modal
+  const [modalData, setModalData] = useState(''); 
   const [showModal, setShowModal] = useState(false);
   
   const handleShowModal = (data) => {
